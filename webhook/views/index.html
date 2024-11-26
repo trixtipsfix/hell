@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Content Submission</title>
+</head>
+<body>
+  <h1>Enter HTML Content</h1>
+  <form action="/webhook/submit" method="POST">
+    <textarea name="htmlContent" rows="10" cols="50" placeholder="Enter HTML here"></textarea><br><br>
+    <button type="submit">Submit</button>
+  </form>
+  <br>
+  <a href="/webhook/logs">View Request Logs</a>
+</body>
+</html>
